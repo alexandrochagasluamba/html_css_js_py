@@ -59,6 +59,10 @@ section{
     font-family: var(--font3);
     font-size: 3.5vw;
     
+    
+}
+section>p{
+padding-bottom: 1em;
 }
 section.normal{
     background-color: white;
@@ -66,15 +70,27 @@ section.normal{
 
 }
 section.imagem{
-    background-image: url('imagens/background001.jpg');
+    box-shadow: inset 6px 6px 13px rgba(27, 26, 26, 0.449);
     background-attachment: fixed;
     background-color: rgba(63, 60, 60, 0.458);
     color: white;
+    background-size: cover;
 }
 section.imagem>p{
     width: 400px;
     background-color: rgba(0, 0, 0, 0.253);
+    text-shadow: 1px 1px 0px black;
+      
 }
-footer{
+section#img01{
+    background-image: url('imagens/background001.jpg');
+    background-position: right center;
+    
+
+}
+section#img02{
+    background-image: url('imagens/background002.jpg');
+    
+
 
 }
